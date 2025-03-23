@@ -1,10 +1,24 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business promotion - Product</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -187,74 +201,76 @@
       </section>
 
       <!-- Price -->
-      <section>
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
+      <section class="price">
+        <div class="container">
+          <h2 class="price-title">Price Table</h2>
+          <p class="price-text">We offer competitive price</p>
 
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
+          <ul class="price-list">
+            <li class="price-item">
+              <h3 class="price-item-title">Free</h3>
+              <p class="price-item-text">Brief price description</p>
 
-            <div class="price">
-              <span class="diget">0</span>
-              <div class="price-right">
-                <span class="curency">$</span>
-                <span class="time">Per / month</span>
+              <div class="price-inner">
+                <span class="price-inner-diget">0</span>
+                <div class="price-right">
+                  <span class="price-right-curency">$</span>
+                  <span class="price-right-time">Per / month</span>
+                </div>
               </div>
-            </div>
 
-            <ul>
-              <li>Only 2 Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
+              <ul class="list">
+                <li class="item">Only 2 Operators</li>
+                <li class="item">Notifications</li>
+                <li class="item">Landing Pages</li>
+              </ul>
 
-            <button type="button">Order Now</button>
-          </li>
+              <button class="btn" type="button">Order Now</button>
+            </li>
 
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
+            <li>
+              <h3>Standard</h3>
+              <p>Brief price description</p>
 
-            <div class="price">
-              <span class="diget">5</span>
-              <div class="price-right">
-                <span class="curency">$</span>
-                <span class="time">Per / month</span>
+              <div class="price">
+                <span class="diget">5</span>
+                <div class="price-right">
+                  <span class="curency">$</span>
+                  <span class="time">Per / month</span>
+                </div>
               </div>
-            </div>
 
-            <ul>
-              <li>5+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
+              <ul>
+                <li>5+ Operators</li>
+                <li>Notifications</li>
+                <li>Landing Pages</li>
+              </ul>
 
-            <button type="button">Order Now</button>
-          </li>
+              <button class="btn" type="button">Order Now</button>
+            </li>
 
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
+            <li>
+              <h3>Premium</h3>
+              <p>Brief price description</p>
 
-            <div class="price">
-              <span class="diget">10</span>
-              <div class="price-right">
-                <span class="curency">$</span>
-                <span class="time">Per / month</span>
+              <div class="price">
+                <span class="diget">10</span>
+                <div class="price-right">
+                  <span class="curency">$</span>
+                  <span class="time">Per / month</span>
+                </div>
               </div>
-            </div>
 
-            <ul>
-              <li>10+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
+              <ul>
+                <li>10+ Operators</li>
+                <li>Notifications</li>
+                <li>Landing Pages</li>
+              </ul>
 
-            <button type="button">Order Now</button>
-          </li>
-        </ul>
+              <button type="button">Order Now</button>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

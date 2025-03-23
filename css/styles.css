@@ -1,24 +1,114 @@
-.price {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: #02897a;
-  font-size: 76px;
-  font-weight: 700;
+/** @format */
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.price {
+  padding: 85px 0 50px 0;
+}
+
+.price-title {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.price-text {
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.price-list {
+  display: flex;
+  gap: 72px;
+}
+.price-item {
+  width: calc((100% - 144px) / 3);
+  padding: 32px 5px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.price-item-title {
+}
+.price-item-text {
+}
+.price-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-inner-diget {
+  margin-right: 7px;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31;
+  color: #02897a;
+}
 .price-right {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: flex-start;
+}
+.price-right-curency {
+}
+.price-right-time {
+}
+.list {
+}
+.item {
 }
 
+.btn {
+  height: 44px;
+  padding: 11px 18px;
+  background: #02897a;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.diget {
+}
 .curency {
-  font-size: 24px;
 }
-
 .time {
-  font-size: 16px;
-  color: #afafaf;
-  font-weight: 400;
 }
