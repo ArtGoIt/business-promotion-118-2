@@ -33,79 +33,126 @@ body {
   background-color: #fff;
 }
 
+.price {
+  padding: 60px 0 100px 0;
+}
+
+@media screen and (min-width: 1400px) {
+  .price {
+    padding: 170px 0 100px 0;
+  }
+}
+
 .container {
-  width: 1140px;
-  padding: 0 15px;
+  max-width: 411px;
+  padding: 0 44px;
   margin: 0 auto;
 }
 
-.price {
-  padding: 85px 0 50px 0;
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1130px;
+    padding: 0 10px;
+  }
 }
 
 .price-title {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   text-align: center;
   font-weight: 700;
   font-size: 34px;
 }
 
+@media screen and (min-width: 1400px) {
+  .price-title {
+    margin-bottom: 10px;
+  }
+}
+
 .price-text {
-  margin-bottom: 40px;
+  margin-bottom: 74px;
   text-align: center;
   font-weight: 500;
 }
 
-.price-list {
-  display: flex;
-  gap: 72px;
+@media screen and (min-width: 1400px) {
+  .price-text {
+    margin-bottom: 40px;
+  }
 }
+
+@media screen and (min-width: 1400px) {
+  .price-list {
+    display: flex;
+    gap: 72px;
+  }
+}
+
 .price-item {
-  width: calc((100% - 144px) / 3);
-  padding: 32px 5px;
   text-align: center;
+  padding: 24px 5px 32px 5px;
   border-radius: 8px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
+
+@media screen and (min-width: 1400px) {
+  .price-item {
+    width: calc((100% - 72px * 2) / 3);
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .price-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
 .price-item-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
 }
 .price-item-text {
+  margin-bottom: 16px;
+  line-height: 2.5;
 }
 .price-inner {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .price-inner-diget {
-  margin-right: 7px;
   font-weight: 700;
   font-size: 76px;
-  line-height: 1.31;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+
   color: #02897a;
 }
 .price-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  margin-left: 8px;
 }
 .price-right-curency {
+  display: block;
+  text-align: left;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
 }
 .price-right-time {
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
 }
 .list {
 }
 .item {
 }
-
 .btn {
-  height: 44px;
-  padding: 11px 18px;
-  background: #02897a;
-  border-radius: 8px;
-  border: none;
-  cursor: pointer;
 }
-
 .diget {
 }
 .curency {
